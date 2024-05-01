@@ -15,19 +15,34 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.bg_nav{
+  background: radial-gradient(240% 100% at 50% 0%, #323A4D 0%, rgba(50, 58, 77, 0.898) 25%, rgba(50, 58, 77, 0.8) 100%);
+
+
+}
+.banner_shadow{
+  /* box-shadow: 0px 1px 2px 0px #5C3E9833; */
+
+/* box-shadow: 0px 4px 4px 0px #5C3E9829; */
+
+/* box-shadow: 0px 8px 4px 0px #5C3E981A; */
+
+box-shadow: 0px 16px 6px 0px #5C3E980A;
+
+}
+.bg_btns{
+  background: linear-gradient(180deg, #B094E1 0%, #795AB5 50%, #795AB5 100%);
+  box-shadow: 0px 1px 2px 0px #5C3E9833;
+
+  box-shadow: 0px 4px 4px 0px #5C3E9829;
+  
+  box-shadow: 0px 8px 4px 0px #5C3E981A;
+  
+  box-shadow: 0px 16px 6px 0px #5C3E980A;
+  
 }
