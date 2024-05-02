@@ -15,10 +15,22 @@ import verizon from "../../../public/assets/verizon.svg";
 import yeti from "../../../public/assets/yeti.svg";
 import bigImage from "../../../public/assets/B_picture.svg";
 const Hero = () => {
+  const display = () => {
+    const menuElements = document.getElementsByClassName('menuNew');
+
+// Loop through each element with the 'menuNew' class and toggle its display style
+for (let i = 0; i < menuElements.length; i++) {
+if (menuElements[i].style.display === "block") {
+  menuElements[i].style.display = "none";
+} else {
+  menuElements[i].style.display = "block";
+}
+}
+}
   return (
     <>
       {/* nav bar */}
-      <div className="bg_nav font-Inter border-b-[1px] border-b-[solid] border-[#323A4D99] w-[100%] fixed">
+      <div className="nav_par bg_nav font-Inter border-b-[1px] border-b-[solid] border-[#323A4D99] w-[100%] fixed">
         {/* text-parent */}
         <div className="flex justify-between max-w-[1231px] mx-auto py-[17px] items-center">
           {/* left */}
@@ -31,7 +43,7 @@ const Hero = () => {
           {/* mid */}
           <div className="font-[600] text-[14px] text-white flex justify-between">
             {/* boxe 1 */}
-            <div className="flex items-center cursor-pointer">
+            <div className="all_nav_hero flex items-center cursor-pointer">
               {/* text */}
               <div>Platform</div>
               {/* img */}
@@ -40,7 +52,7 @@ const Hero = () => {
               </div>
             </div>
             {/* boxe 2 */}
-            <div className="flex items-center ml-8 cursor-pointer">
+            <div className="all_nav_hero flex items-center ml-8 cursor-pointer">
               {/* text */}
               <div>Solutions</div>
               {/* img */}
@@ -49,7 +61,7 @@ const Hero = () => {
               </div>
             </div>
             {/* boxe 3 */}
-            <div className="flex items-center ml-8 cursor-pointer">
+            <div className="all_nav_hero flex items-center ml-8 cursor-pointer">
               {/* text */}
               <div>Resources</div>
               {/* img */}
@@ -58,7 +70,7 @@ const Hero = () => {
               </div>
             </div>
             {/* boxe 4 */}
-            <div className="flex items-center ml-8 cursor-pointer">
+            <div className="all_nav_hero flex items-center ml-8 cursor-pointer">
               {/* text */}
               <div>Pricing</div>
             </div>
@@ -66,8 +78,8 @@ const Hero = () => {
           {/* right */}
           <div>
             {/* button */}
-            <div>
-              <button className="bg-[#e3d4fc] py-[5.5px] px-[20px] rounded-[16px]">
+            <div className="flex items-center">
+              <button className="all_nav_hero bg-[#e3d4fc] py-[5.5px] px-[20px] rounded-[16px]">
                 {/* parent */}
                 <div className="flex justify-between items-center">
                   {/* text */}
@@ -80,6 +92,43 @@ const Hero = () => {
                   </div>
                 </div>
               </button>
+              {/* Hamburger */}
+            <div id="menuToggle" onClick={display}>
+                                {/* <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      --> */}
+                                <input type="checkbox" />
+
+                                {/* <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      --> */}
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                                {/* <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      --> */}
+                                <ul id="menu">
+                                    <a href="#"><li>Home</li></a>
+                                    <a href="#"><li>About</li></a>
+                                    <a href="#"><li>Info</li></a>
+                                    <a href="#"><li>Contact</li></a>
+                                    <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                                </ul>
+                            </div>
+                            <div className='menuNew bg-[#041123] custom-shadow space-y-5 p-6 rounded absolute top-16 right-11 hidden'>
+                            <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[16px] font-medium text-white cursor-pointer'>Platform</div>
+                            <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[16px] font-medium text-white cursor-pointer'>Solutions</div>
+                            <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[16px] font-medium text-white cursor-pointer'>Pricing</div>
+                            <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[16px] font-medium text-white cursor-pointer'>Resources</div>
+                            <div className='hover:text-[#494a4c] transition duration-[0.6s] hover:transition hover:duration-[0.6s] text-[16px] font-medium text-white cursor-pointer'>Get a Demo</div>
+                            </div>
             </div>
           </div>
         </div>
@@ -87,7 +136,7 @@ const Hero = () => {
       {/* background */}
       <div className="bg-[#1e232e] pt-[0.1px] font-Inter overflow-hidden rounded-bottom ">
         {/* section */}
-        <div className="max-w-[1231px] mx-auto mt-[9.5rem] flex justify-between">
+        <div className="content_image_hero max-w-[1231px] hero_section mx-auto mt-[9.5rem] flex justify-between">
           {/* left */}
           <div>
             {/* banner */}
@@ -109,42 +158,42 @@ const Hero = () => {
               faster and at a lower cost than human agents.
             </div>
             {/* buttons */}
-            <div className="flex mt-9">
+            <div className="flex mt-9 hero_btn">
               {/* button 1 */}
               <div className="font-[800] text-[16px] text-[white]"><button className="rounded-[8px] px-[25px] py-[12px] bg_btns">Get a demo</button></div>
-              <div className="font-[800] text-[16px] text-[white]"><button className="ml-6 border-[#9977D4] border-[2px] rounded-[8px] px-[23px] py-[10px]">Get a demo</button></div>
+              <div className="font-[800] text-[16px] text-[white]"><button className="btn_2 ml-6 border-[#9977D4] border-[2px] rounded-[8px] px-[23px] py-[10px]">Get a demo</button></div>
             </div>
           </div>
           {/* right */}
-          <div className="mr-[-68px]"><img className="max-w-[130%]" src={bigImage.src}></img></div>
+          <div className="hero_big_img mr-[-68px]"><img className="max-w-[130%]" src={bigImage.src}></img></div>
         </div>
         {/* images */}
-        <div className="max-w-[1029px] mx-auto mt-[69px] rounded-b-[5px]">
+        <div className="hero_images max-w-[1029px] mx-auto mt-[69px] rounded-b-[5px]">
           {/* first row */}
-          <div className="flex items-center">
+          <div className="flex-wrap flex items-center justify-center">
             {/* image1 */}
             <div><img src={canva.src}></img></div>
             {/* image2 */}
-            <div className="ml-[56px]"><img src={wealthsimple.src}></img></div>
+            <div className="wealthsimple ml-[56px]"><img src={wealthsimple.src}></img></div>
             {/* image3 */}
-            <div className="ml-[56px]"><img src={pinterest.src}></img></div>
+            <div className="pinterest ml-[56px]"><img src={pinterest.src}></img></div>
             {/* image4 */}
-            <div className="ml-[56px]"><img src={afterpray.src}></img></div>
+            <div className="afterpay ml-[56px]"><img src={afterpray.src}></img></div>
             {/* image5 */}
-            <div className="ml-[56px]"><img src={squre.src}></img></div>
+            <div className="square ml-[56px]"><img src={squre.src}></img></div>
           </div>
           {/* second row */}
           <div className="flex items-center mt-9">
             {/* image1 */}
             <div><img src={mailchimp.src}></img></div>
             {/* image2 */}
-            <div className="ml-[56px]"><img src={ipsy.src}></img></div>
+            <div className="ipsy ml-[56px]"><img src={ipsy.src}></img></div>
             {/* image3 */}
-            <div className="ml-[56px]"><img src={verizon.src}></img></div>
+            <div className="verizon ml-[56px]"><img src={verizon.src}></img></div>
             {/* image4 */}
-            <div className="ml-[56px]"><img src={weber.src}></img></div>
+            <div className="weber ml-[56px]"><img src={weber.src}></img></div>
             {/* image5 */}
-            <div className="ml-[56px]"><img src={yeti.src}></img></div>
+            <div className="yeti ml-[56px]"><img src={yeti.src}></img></div>
           </div>
         </div>
       </div>
