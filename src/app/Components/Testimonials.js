@@ -53,7 +53,7 @@ const Testimonials = () => {
         </div>
         {/* text */}
         <div className="max-w-[800px] mx-auto text-center font-[900] text-[48px] text-[#1E232E] leading-[55px]">
-          We've helped <span className="text-[#9977D4]">350+</span> businesses
+          We&apos;ve helped <span className="text-[#9977D4]">350+</span> businesses
           save time, money and resources
         </div>
         {/* grid */}
