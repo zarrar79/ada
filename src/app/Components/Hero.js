@@ -169,32 +169,40 @@ if (menuElements[i].style.display === "block") {
         </div>
         {/* images */}
         <div className="hero_images max-w-[1029px] mx-auto mt-[69px] rounded-b-[5px]">
-          {/* first row */}
-          <div className="flex-wrap flex items-center justify-center">
-            {/* image1 */}
-            <div><img src={canva.src}></img></div>
-            {/* image2 */}
-            <div className="wealthsimple ml-[56px]"><img src={wealthsimple.src}></img></div>
-            {/* image3 */}
-            <div className="pinterest ml-[56px]"><img src={pinterest.src}></img></div>
-            {/* image4 */}
-            <div className="afterpay ml-[56px]"><img src={afterpray.src}></img></div>
-            {/* image5 */}
-            <div className="square ml-[56px]"><img src={squre.src}></img></div>
-          </div>
-          {/* second row */}
-          <div className="flex items-center mt-9">
-            {/* image1 */}
-            <div><img src={mailchimp.src}></img></div>
-            {/* image2 */}
-            <div className="ipsy ml-[56px]"><img src={ipsy.src}></img></div>
-            {/* image3 */}
-            <div className="verizon ml-[56px]"><img src={verizon.src}></img></div>
-            {/* image4 */}
-            <div className="weber ml-[56px]"><img src={weber.src}></img></div>
-            {/* image5 */}
-            <div className="yeti ml-[56px]"><img src={yeti.src}></img></div>
-          </div>
+          {/* ml-56px */}
+            {/* grid */}
+            <div className="grid_hero grid grid-cols-5 items-center gap-x-[48px]">
+              <div>
+                {/* img 1 */}
+                <div className="canva"><img src={canva.src}></img></div>
+                {/* img 2 */}
+                <div className="mailchimp mt-[58px]"><img src={mailchimp.src}></img></div>
+              </div>
+              <div>
+                {/* img 1 */}
+                <div className="wealthsimple"><img src={wealthsimple.src}></img></div>
+                {/* img 2 */}
+                <div className="ipsy mt-[58px]"><img src={ipsy.src}></img></div>
+              </div>
+              <div>
+                {/* img 1 */}
+                <div className="pinterest"><img src={pinterest.src}></img></div>
+                {/* img 2 */}
+                <div className="verizon mt-[58px]"><img src={verizon.src}></img></div>
+              </div>
+              <div>
+                {/* img 1 */}
+                <div className="afterpay"><img src={afterpray.src}></img></div>
+                {/* img 2 */}
+                <div className="weber mt-[58px]"><img src={weber.src}></img></div>
+              </div>
+              <div>
+                {/* img 1 */}
+                <div className="square"><img src={squre.src}></img></div>
+                {/* img 2 */}
+                <div className="yeti mt-[58px]"><img src={yeti.src}></img></div>
+              </div>
+            </div>
         </div>
       </div>
       <div>

@@ -158,31 +158,6 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
     width: 70%;
   }
 }
-@media(max-width:1010px){
-  .square{
-    margin-top:30px;
-  }
-}
-@media(max-width:838px){
-  .afterpay{
-    margin-top:30px;
-  }
-}
-@media(max-width:623px){
-  .pinterest{
-    margin-top:30px;
-  }
-}
-@media(max-width:416px){
-  .wealthsimple{
-    margin-top:30px;
-  }
-}
-@media(max-width:344px){
-  .pinterest,.afterpay,.wealthsimple,.square{
-    margin-left:0px;
-  }
-}
 @media(max-width:326px){
   .hero_btn{
     display:block;
@@ -203,6 +178,27 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
   }
   .all_nav_hero{
     display:none;
+  }
+}
+@media(max-width:788px){
+  .grid_hero{
+    grid-template-columns : 1fr 1fr;
+    align-items:center;
+  }
+}
+@media(max-width:776px){
+  .pinterest,.square,.verizon,.weber,.wealthsimple,.yeti,.mailchimp,.ipsy,.canva,.afterpay{
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+  }
+}
+@media(max-width:419px){
+  .grid_hero{
+    grid-template-columns:1fr;
+  }
+  .pinterest,.square,.verizon,.weber,.wealthsimple,.yeti,.mailchimp,.ipsy,.canva,.afterpay{
+    margin-top:2rem;
   }
 }
 
