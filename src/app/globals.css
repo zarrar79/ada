@@ -116,13 +116,18 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
 .bg_btns{
   background: linear-gradient(180deg, #B094E1 0%, #795AB5 50%, #795AB5 100%);
   box-shadow: 0px 1px 2px 0px #5C3E9833;
-
+/* 
   box-shadow: 0px 4px 4px 0px #5C3E9829;
   
   box-shadow: 0px 8px 4px 0px #5C3E981A;
   
-  box-shadow: 0px 16px 6px 0px #5C3E980A;
+  box-shadow: 0px 16px 6px 0px #5C3E980A; */
   
+}
+.box_shadow_testi{
+  --tw-shadow: 0px 16px 32px hsl(224 21% 25% / 8%), 0px 10px 20px hsl(224 21% 25% / 4%), 0px 6px 12px hsl(224 21% 25% / 2%), 0px 3px 6px hsl(224 21% 25% / 2%), 0px 1px 2px hsl(224 21% 25% / 1%);
+  --tw-shadow-colored: 0px 16px 32px var(--tw-shadow-color), 0px 10px 20px var(--tw-shadow-color), 0px 6px 12px var(--tw-shadow-color), 0px 3px 6px var(--tw-shadow-color), 0px 1px 2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 @media(max-width:1240px){
   .nav_par{

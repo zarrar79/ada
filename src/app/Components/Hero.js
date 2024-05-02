@@ -171,7 +171,7 @@ if (menuElements[i].style.display === "block") {
         <div className="hero_images max-w-[1029px] mx-auto mt-[69px] rounded-b-[5px]">
           {/* ml-56px */}
             {/* grid */}
-            <div className="grid_hero grid grid-cols-5 items-center gap-x-[48px]">
+            <div className="grid_hero grid grid-cols-5 items-center gap-x-[48px] pb-[13px]">
               <div>
                 {/* img 1 */}
                 <div className="canva"><img src={canva.src}></img></div>
