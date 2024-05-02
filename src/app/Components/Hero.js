@@ -136,7 +136,7 @@ if (menuElements[i].style.display === "block") {
       {/* background */}
       <div className="bg-[#1e232e] pt-[0.1px] font-Inter overflow-hidden rounded-bottom ">
         {/* section */}
-        <div className="content_image_hero max-w-[1231px] hero_section mx-auto mt-[9.5rem] flex justify-between">
+        <div className="content_image_hero max-w-[1231px] hero_section mx-auto mt-[12rem] flex justify-between">
           {/* left */}
           <div>
             {/* banner */}
@@ -161,14 +161,14 @@ if (menuElements[i].style.display === "block") {
             <div className="flex mt-9 hero_btn">
               {/* button 1 */}
               <div className="font-[800] text-[16px] text-[white]"><button className="rounded-[8px] px-[25px] py-[12px] bg_btns">Get a demo</button></div>
-              <div className="font-[800] text-[16px] text-[white]"><button className="btn_2 ml-6 border-[#9977D4] border-[2px] rounded-[8px] px-[23px] py-[10px]">Get a demo</button></div>
+              <div className="font-[800] text-[16px] text-[white]"><button className="btn_2 ml-6 border-[#9977D4] border-[2px] rounded-[8px] px-[23px] py-[10px]">Learn More</button></div>
             </div>
           </div>
           {/* right */}
           <div className="hero_big_img mr-[-68px]"><img className="max-w-[130%]" src={bigImage.src}></img></div>
         </div>
         {/* images */}
-        <div className="hero_images max-w-[1029px] mx-auto mt-[69px] rounded-b-[5px]">
+        <div className="hero_images max-w-[1029px] mx-auto mt-[14px] rounded-b-[5px]">
           {/* ml-56px */}
             {/* grid */}
             <div className="grid_hero grid grid-cols-5 items-center gap-x-[48px] pb-[13px]">
