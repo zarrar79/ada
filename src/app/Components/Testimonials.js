@@ -62,10 +62,10 @@ const Testimonials = () => {
           <div>
             {/* b_text */}
             <div className="font-[400] text-[18px] text-[#1E232E] justify-start">
-              "Our AI Agent brings us closer to our clients, reducing
+            &quot;Our AI Agent brings us closer to our clients, reducing
               operational burden and increasing our automated resolution to help
               our team think about big picture levers we can pull to create a
-              better client experience."
+              better client experience.&quot;
             </div>
             {/* small text + img */}
             <div className="flex items-center mt-10">
