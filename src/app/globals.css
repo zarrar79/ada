@@ -201,5 +201,10 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
     margin-top:2rem;
   }
 }
+@media(max-width:478px){
+  .hero_big_img img{
+    width:80%;
+  }
+}
 
 
