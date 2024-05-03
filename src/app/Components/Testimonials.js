@@ -59,7 +59,7 @@ const Testimonials = () => {
           save time, money and resources
         </div>
         {/* grid */}
-        <div className="grid grid-cols-2 mt-[80px] gap-[30px]">
+        <div className="grid_of_two_about grid grid-cols-2 mt-[80px] gap-[30px]">
           {/* left */}
           {/* #FFFFFF99 */}
           <div className="px-[29px] py-[38px] rounded-[8px] border-[1px] shadow-2xl border-[#FFFFFF99]">
@@ -71,10 +71,10 @@ const Testimonials = () => {
               better client experience.&quot;
             </div>
             {/* small text + img */}
-            <div className="flex items-center mt-10">
+            <div className="flex items-center mt-10 sm_img_text_about">
                 {/* img */}
                 <div><img src={man.src}></img></div>
-                <div className="ml-[23px] pt-[8.5px]">
+                <div className="ml-[23px] side_text_about pt-[8.5px]">
                     {/* bold */}
                     <div className="font-[700] text-[18px] text-[#1E232E]">Paul Teshima</div>
                     {/* small */}
@@ -91,10 +91,10 @@ const Testimonials = () => {
             &quot;We saw impressive gains when implementing the scripted chatbot, but were blown away by the results of our generative AI Agent. With the AI Agent, we no longer have to rely on human intervention to address new customer inquiries that come through when we've updated our product.&quot;
             </div>
             {/* small text + img */}
-            <div className="flex items-center mt-10">
+            <div className="flex items-center mt-10 sec_img_text_about">
                 {/* img */}
                 <div><img src={girl.src}></img></div>
-                <div className="ml-[23px] pt-[8.5px]">
+                <div className="sec_side_text ml-[23px] pt-[8.5px]">
                     {/* bold */}
                     <div className="font-[700] text-[18px] text-[#1E232E]">Allie Hurley</div>
                     {/* small */}
