@@ -88,7 +88,7 @@ const Testimonials = () => {
           <div className="px-[29px] py-[38px] rounded-[8px] border-[1px] shadow-2xl border-[#FFFFFF99]">
             {/* b_text */}
             <div className="font-[400] text-[18px] text-[#1E232E] justify-start">
-            &quot;We saw impressive gains when implementing the scripted chatbot, but were blown away by the results of our generative AI Agent. With the AI Agent, we no longer have to rely on human intervention to address new customer inquiries that come through when we've updated our product.&quot;
+            &quot;We saw impressive gains when implementing the scripted chatbot, but were blown away by the results of our generative AI Agent. With the AI Agent, we no longer have to rely on human intervention to address new customer inquiries that come through when we&apos;ve updated our product.&quot;
             </div>
             {/* small text + img */}
             <div className="flex items-center mt-10 sec_img_text_about">
