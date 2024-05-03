@@ -3,6 +3,7 @@ import bigImage from '../../../public/assets/b_image_feature.svg'
 import shield from '../../../public/assets/shield.svg'
 import mail from '../../../public/assets/mail.svg'
 import kristal from '../../../public/assets/kristal.svg'
+import arrow from '../../../public/assets/Arrow.svg'
 const Features = () => {
   return (
     <>
@@ -84,17 +85,25 @@ const Features = () => {
             </div>
         </div>
         {/* flex for b-image and text */}
-        <div className='flex items-center justify-between'>
+        <div className='flex items-center justify-between mt-[54.5px]'>
             {/* left */}
-            <div><img className='ml-[-248px] max-w-[210%]' src={kristal.src}></img></div>
+            <div className='w-[30%]'><img className='mt-[45px] ml-[-262px] max-w-[229%]' src={kristal.src}></img></div>
             {/* right */}
-            <div className='text-[white]'>
-                <div className='pl-[100px]'>
+            <div className='text-[white] w-[70%]'>
+                <div className='max-w-[56%] mx-auto ml-[283px]'>
               {/* head */}
-              <div className='font-[900] text-[40px] text-[#fff]'>Resolve more phone calls with voice AI</div>
+              <div className='leading-[46px] font-[900] text-[40px] text-[#fff]'>Resolve more phone calls with voice AI</div>
               {/* sm-text */}
-              <div className='font-[400] text-[18px]'>Stop delivering a disjointed customer experience. Hire an AI Agent that can communicate consistently in any channel. Seamlessly add intelligent phone automation using the same knowledge content, all in a single platform.</div>
-              {/* banner */}
+              <div className='mt-[38px] font-[400] leading-[27px] text-[18px]'>Stop delivering a disjointed customer experience. Hire an AI Agent that can communicate consistently in any channel. Seamlessly add intelligent phone automation using the same knowledge content, all in a single platform.</div>
+            {/* banner */}
+            <div className= "font-[600] mt-[38px] text-[14px] text-[#1E232E] bg-[#e3d4fc] flex items-center w-[249px] rounded-[16px] px-[20px] py-[5px] banner_shadow">
+              {/* text */}
+              <div>Learn More about Ada Voice</div>
+              {/* img */}
+              <div className="ml-2">
+                <img src={arrow.src}></img>
+              </div>
+            </div>
             </div>
             </div>
         </div>
