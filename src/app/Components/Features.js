@@ -13,7 +13,7 @@ const Features = () => {
         <div className='container mx-auto'>
         <div className='max-w-[1231px] mx-auto'>
      {/* section */}
-     <div className="mt-[5.5rem] grid gap-9 grid-cols-2 mx-auto items-center">
+     <div className="mt-[5.5rem] grid gap-9 grid-cols-2 mx-auto items-center grid_first_feature">
           {/* left */}
           <div>
             {/* big-text */}
@@ -25,7 +25,7 @@ const Features = () => {
             Ditch code-heavy, old-school scripted chatbots. Powered by Ada’s Reasoning Engine™, an AI Agent reasons through the best solution to deliver responses that are relevant, accurate and safe. Every single time.
             </div>
             {/* buttons */}
-            <div className="flex mt-9 hero_btn">
+            <div className="flex mt-9 hero_btn feature_btn">
               {/* button 1 */}
               <div className="font-[800] text-[16px] text-[white]"><button className="rounded-[8px] px-[25px] py-[12px] bg_btns">Get a demo</button></div>
               <div className="font-[800] text-[16px] text-[white]"><button className="btn_2 ml-7 border-[#9977D4] border-[2px] rounded-[8px] px-[23px] py-[10px]">Learn More</button></div>
@@ -86,9 +86,9 @@ const Features = () => {
             </div>
         </div>
         {/* flex for b-image and text */}
-        <div className='grid items-center grid-cols-2 mt-[54.5px]'>
+        <div className='grid_second_feature grid items-center grid-cols-2 mt-[54.5px]'>
             {/* left */}
-            <div><img className='img_feature_sec mt-[45px] max-w-[142%] ml-[-280px]' src={kristal.src}></img></div>
+            <div className='sec_img_feature_flex'><img className='img_feature_sec mt-[45px] max-w-[142%] ml-[-280px]' src={kristal.src}></img></div>
             {/* right */}
             <div className='text-[white]'>
                 <div className='px-[67px] mt-5 head_txt_feature'>
