@@ -320,4 +320,37 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
     padding-right:2rem;
   }
 }
-
+@media(max-width:1024px){
+  .container{
+    max-width:768px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .bg_img_feature img{
+    margin-top: -76px;
+  }
+  .b_text_feature{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .sm_text_feature{
+    font-size: 18px;
+    padding-right: 20rem;
+  }
+  .grid_card_feature{
+    grid-template-columns:1fr 1fr;
+  }
+  .head_txt_feature{
+   font-weight:900;
+   font-size:32px;
+  }
+  .sm_text_feature_2{
+     font-weight:400;
+     font-text:18px;
+  }
+  .img_feature_sec{
+    max-width: 481.4px;
+    margin-left: -136px;
+  }
+}
