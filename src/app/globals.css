@@ -366,7 +366,7 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
     max-width:640px;
   }
   .head_txt_feature{
-    padding-right:9rem;
+    padding-right:2rem;
   }
   .sec_img_feature_flex{
     display:flex;
@@ -394,6 +394,13 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
   }
   .bg_img_feature img{
     max-width:100%;
+  }
+  .b_text_feature{
+    padding-right:2rem;
+  }
+  .sm_text_feature{
+    width:auto;
+    padding-right:2rem;
   }
 }
 @media(max-width:644px){
