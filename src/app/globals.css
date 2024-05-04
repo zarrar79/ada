@@ -362,6 +362,9 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
   }
 }
 @media(max-width:767px){
+  .banner_feature{
+    display:block;
+  }
   .container{
     max-width:640px;
   }
@@ -410,5 +413,10 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
   .grid_card_feature{
     grid-template-columns:1fr;
     margin-right:2.5rem;
+  }
+}
+@media(max-width:360px){
+  .banner_feature{
+    display:flex;
   }
 }

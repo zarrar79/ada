@@ -97,7 +97,7 @@ const Features = () => {
               {/* sm-text */}
               <div className='sm_text_feature_2 mt-[38px] font-[400] leading-[27px] text-[18px]'>Stop delivering a disjointed customer experience. Hire an AI Agent that can communicate consistently in any channel. Seamlessly add intelligent phone automation using the same knowledge content, all in a single platform.</div>
             {/* banner */}
-            <div className= "font-[600] mt-[38px] text-[14px] text-[#1E232E] bg-[#e3d4fc] flex items-center w-[249px] rounded-[16px] px-[20px] py-[5px] banner_shadow">
+            <div className= "font-[600] mt-[38px] text-[14px] text-[#1E232E] bg-[#e3d4fc] flex items-center w-[249px] rounded-[16px] px-[20px] py-[5px] banner_shadow banner_feature">
               {/* text */}
               <div>Learn More about Ada Voice</div>
               {/* img */}
