@@ -8,7 +8,7 @@ const Features = () => {
   return (
     <>
     {/* background */}
-    <div className='bg-[#1e232e] overflow-hidden mt-[6rem] font-Inter'>
+    <div className='bg-[#1e232e] overflow-hidden mt-[6rem] font-Inter pb-[100px]'>
         {/* fluid */}
         <div className='container mx-auto'>
         <div className='max-w-[1231px] mx-auto'>
