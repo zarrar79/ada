@@ -113,6 +113,13 @@ const automation = () => {
           </div>
           </div>
         </div>
+        {/* big text */}
+        <div className="max-w-[700px] mx-auto mt-20">
+            {/* text */}
+            <div className="leading-[55px] font-[900] text-[48px] text-[#ffff] text-center">Automate your customer service with Ada</div>
+            {/* button */}
+            <div className="mt-10 flex justify-center"><button className="text-center px-[23px] rounded-lg py-[11px] bg_btns font-[800] text-[16px] text-[#ffff]">Get a Demo</button></div>
+        </div>
         </div>
       </div>
     </>
