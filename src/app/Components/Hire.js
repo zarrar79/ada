@@ -6,7 +6,7 @@ const Hire = () => {
     <>
         {/* fluid */}
         <div className='container_hire'>
-        <div className='max-w-[1231px] mx-auto mt-[86px] overflow-hidden'>
+        <div className='max-w-[1231px] mx-auto mt-[86px] overflow-hidden pb-20'>
              {/*center container  */}
              <div>
                 {/* head */}
@@ -20,7 +20,7 @@ const Hire = () => {
                     {/* button 2 */}
                     <div><button className='boxshadow_hire bg-[#E3D4FC] ml-8 border-[2px] border-[#E3D4FC] py-1 px-4 rounded-[16px] font-[600] text-[14px] text-[#1E232E]'>Measure</button></div>
                     {/* button 3 */}
-                    <div><button className='coach_hire boxshadow_hire bg-[#E3D4FC] ml-8 border-[2px] border-[#E3D4FC] py-1 px-4 rounded-[16px] font-[600] text-[14px] text-[#1E232E]'>Coach</button></div>
+                    <div><button className='coack boxshadow_hire bg-[#E3D4FC] ml-8 border-[2px] border-[#E3D4FC] py-1 px-4 rounded-[16px] font-[600] text-[14px] text-[#1E232E]'>Coach</button></div>
                 </div>
              </div>
              {/* text + center */}

@@ -4,6 +4,7 @@ import  Hero  from './Components/Hero';
 import Testimonials from './Components/Testimonials'
 import Features from './Components/Features'
 import Hire from '../app/Components/Hire'
+import Automation from './Components/automation'
 const page = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const page = () => {
      <Testimonials/>
      <Features/>
      <Hire/>
+     <Automation/>
     </>
   )
 }
