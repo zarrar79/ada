@@ -169,7 +169,7 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
     text-align:center;
   }
   .hero_btn{
-    justify-content:center;
+    justify-content:start;
   }
   .hero_big_img{
     margin-top: 38px;
