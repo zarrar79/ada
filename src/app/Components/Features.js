@@ -25,7 +25,7 @@ const Features = () => {
             Ditch code-heavy, old-school scripted chatbots. Powered by Ada’s Reasoning Engine™, an AI Agent reasons through the best solution to deliver responses that are relevant, accurate and safe. Every single time.
             </div>
             {/* buttons */}
-            <div className="flex mt-9 hero_btn feature_btn">
+            <div className="flex mt-9 hero_btn feature-btn">
               {/* button 1 */}
               <div className="font-[800] text-[16px] text-[white]"><button className="rounded-[8px] px-[25px] py-[12px] bg_btns">Get a demo</button></div>
               <div className="font-[800] text-[16px] text-[white]"><button className="btn_2 ml-7 border-[#9977D4] border-[2px] rounded-[8px] px-[23px] py-[10px]">Learn More</button></div>

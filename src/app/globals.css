@@ -332,6 +332,24 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
   }
 }
 @media(max-width:1024px){
+  .gird_sm_hire{
+    font-size:18px;
+    line-height:27px;
+  }
+  .grid_head_hire{
+    font-size:32px;
+    line-height:37px;
+  }
+  .grid_hire{
+    display:flex;
+    flex-direction:column-reverse;
+  }
+  .container_hire{
+    max-width:768px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:0rem;    
+  }
   .container{
     max-width:768px;
     margin-left:auto;
@@ -373,8 +391,11 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
   }
 }
 @media(max-width:767px){
-  .banner_feature{
-    display:block;
+  .grid_left_hire{
+    padding:0 2rem 0 2rem;
+  }
+  .grid_hire img{
+    max-width:90%;
   }
   .container{
     max-width:640px;
@@ -429,5 +450,10 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
 @media(max-width:360px){
   .banner_feature{
     display:flex;
+  }
+}
+@media(max-width:333px){
+  .coach_hire{
+    margin-top:1rem;
   }
 }
