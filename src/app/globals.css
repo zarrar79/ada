@@ -146,6 +146,14 @@ box-shadow: 0px 16px 6px 0px #5C3E980A;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     background-image: radial-gradient(240% 100% at 50% 0%, #323a4d, #323a4d99 25%, #323a4d33);
 }
+.bg_auto_grid_left{
+  background: radial-gradient(240% 100% at 50% 0%, #323A4D 0%, rgba(50, 58, 77, 0.6) 25%, rgba(50, 58, 77, 0.2) 100%);
+
+}
+.bg_auto_grid_right_header{
+  background: radial-gradient(240% 100% at 50% 0%, #323A4D 0%, rgba(50, 58, 77, 0.6) 25%, rgba(50, 58, 77, 0.2) 100%);
+
+}
 @media(max-width:1240px){
   .nav_par{
     padding-left:10px;
