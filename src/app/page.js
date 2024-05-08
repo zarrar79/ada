@@ -5,6 +5,7 @@ import Testimonials from './Components/Testimonials'
 import Features from './Components/Features'
 import Hire from '../app/Components/Hire'
 import Automation from './Components/automation'
+import Discover from './Components/Discover'
 const page = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const page = () => {
      <Features/>
      <Hire/>
      <Automation/>
+     <Discover/>
     </>
   )
 }
