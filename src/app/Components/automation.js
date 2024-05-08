@@ -26,7 +26,7 @@ const automation = () => {
         </svg>
       </div>
       {/* background */}
-      <div className="bg-[#1e232e]">
+      <div className="bg-[#1e232e] pb-28">
         <div className="container_automate overflow-hidden">
           {/* fluid */}
           <div className="max-w-[1231px] mx-auto overflow-hidden">
@@ -256,6 +256,7 @@ const automation = () => {
           </div>
         </div>
       </div>
+      <svg viewBox="0 0 1728 121" class="pointer-events-none w-full fill-none" xmlns="http://www.w3.org/2000/svg"> <path d="M1728 0H0v121C269.647 42.815 570.663 1 864.462 1 1158.26 1 1458.35 42.815 1728 121V0Z" fill="#1e232e"></path> </svg>
     </>
   );
 };
