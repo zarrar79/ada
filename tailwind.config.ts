@@ -7,6 +7,12 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens:{
+     'xl' : {'max' : '1023px'},
+     'md' : {'max': '767px'},
+     'sm' : {'max' : '630px'},
+     'xs' : {'max' : '400px'}
+    },
     fontFamily :{
      Inter : ''
     },

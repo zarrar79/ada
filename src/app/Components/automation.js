@@ -12,7 +12,7 @@ const automation = () => {
   return (
     <>
       {/* img */}
-      <div>
+      <div className="overflow-hidden">
         <svg
           viewBox="0 0 1728 120"
           class="pointer-events-none w-full fill-none"
@@ -27,13 +27,13 @@ const automation = () => {
       </div>
       {/* background */}
       <div className="bg-[#1e232e]">
-        <div className="container_automate">
+        <div className="container_automate overflow-hidden">
           {/* fluid */}
-          <div className="max-w-[1231px] mx-auto">
+          <div className="max-w-[1231px] mx-auto overflow-hidden">
             {/* center text */}
             <div className="text-center">
               {/* lg-text */}
-              <div className="font-[900] text-[72px] leading-[72px] text-[#ffff] bg_num">
+              <div className="font-[900] xs:text-[33px] text-[72px] leading-[72px] text-[#ffff] bg_num">
                 4,286,424,972
               </div>
               {/* sm-text */}
@@ -83,9 +83,9 @@ const automation = () => {
                   {/* digicel */}
                   <div className="box_shadow_card_feature rounded-md mt-12">
                     {/* inner content */}
-                    <div className="px-[30px] flex justify-start items-center py-11">
+                    <div className="px-[30px] xs:grid xs:grid-cols-2 flex justify-start items-center py-11">
                       {/* img*/}
-                      <div>
+                      <div className="xs:col-span-1">
                         <img className="imgs" src={digicel.src}></img>
                       </div>
                       {/* text */}
@@ -126,9 +126,9 @@ const automation = () => {
               </div>
             </div>
             {/* big text */}
-            <div className="max-w-[700px] mx-auto mt-[280px]">
+            <div className="max-w-[700px] mx-auto mt-[280px] md:mt-[150px]">
               {/* text */}
-              <div className="leading-[55px] font-[900] text-[48px] text-[#ffff] text-center">
+              <div className="leading-[55px] font-[900] text-[48px] text-[#ffff] text-center md:text-[38px] sm:leading-[45px]">
                 Automate your customer service with Ada
               </div>
               {/* button */}
@@ -139,14 +139,14 @@ const automation = () => {
               </div>
             </div>
             {/* grid span */}
-            <div className="grid grid-cols-3 gap-8 mt-[280px]">
+            <div className="grid grid-cols-3 gap-8 mt-[280px] md:mt-[150px] md:grid-cols-1">
               {/* left */}
               <div className="bg_auto_grid_left rounded-[8px] border-[1px] border-[#323A4D99] px-[30px] py-[95px]">
                 {/* inner parent */}
                 <div>
                   {/* large */}
-                  <div className="font-[700] text-[32px] leading-[37px] text-[#ffff]">
-                    An AI-powered platform built<br></br> for CX teams
+                  <div className="font-[700] text-[32px] sm:text-[29px] leading-[37px] text-[#ffff] pr-[70px] text_span_grid">
+                    An AI-powered platform built for CX teams
                   </div>
                   {/* sm */}
                   <div className="mt-6 font-[400] text-[16px] text-[#ffff] leading-[24px]">
@@ -164,31 +164,31 @@ const automation = () => {
                 </div>
               </div>
               {/* right */}
-              <div className="col-span-2 rounded-[8px] border-[1px] border-[#323A4D99]">
+              <div className="col-span-2 md:col-span-1 rounded-[8px] border-[1px] border-[#323A4D99]">
                 {/* parent */}
                 <div>
                   {/* header */}
                   <div className="bg-[#2c3444] rounded-t-[8px]">
                     {/* imgs */}
-                    <div className="flex  items-center justify-start px-8 py-6">
+                    <div className="flex sm:flex-wrap sm:justify-between sm:space-y-3 sm:items-center items-center justify-start px-8 py-6">
                       <div>
                         <img src={wealthsimple.src}></img>
                       </div>
-                      <div className="ml-[46px]">
+                      <div className="ml-[46px] sm:ml-0">
                         <img src={indigo.src}></img>
                       </div>
-                      <div className="ml-[46px]">
+                      <div className="ml-[46px] sm:ml-0">
                         <img src={airasia.src}></img>
                       </div>
-                      <div className="ml-[46px]">
+                      <div className="ml-[46px] sm:ml-0">
                         <img src={tile.src}></img>
                       </div>
                     </div>
                   </div>
                   {/* other content */}
-                  <div className="grid grid-cols-4 px-8 py-10 gap-[20px]">
+                  <div className="grid grid-cols-4 px-8 py-10 gap-[20px] sm:grid-cols-1">
                     {/* left */}
-                    <div className="col-span-1 border-r-[1px] border-r-[solid] border-r-[#323A4D]">
+                    <div className="sm:flex sm:justify-between sm:border-r-[0px] sm:border-b-[1px] sm:border-b-[solid] sm:pb-2 sm:border-b-[#323A4D] col-span-1 border-r-[1px] border-r-[solid] border-r-[#323A4D]">
                       {/* box 1 */}
                       <div>
                         {/* head */}
@@ -213,7 +213,7 @@ const automation = () => {
                       </div>
                     </div>
                     {/* right */}
-                    <div className="col-span-3">
+                    <div className="col-span-3 sm:col-span-1">
                       {/* text */}
                       <div className="font-[400] text-[16px] leading-[24px] text-[#ffff]">
                         “Based on Automated Resolutions, our AI Agent is
