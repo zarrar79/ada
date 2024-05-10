@@ -27,9 +27,9 @@ const automation = () => {
       </div>
       {/* background */}
       <div className="bg-[#1e232e] pb-28">
-        <div className="container_automate overflow-hidden">
+        <div className="container_automate">
           {/* fluid */}
-          <div className="max-w-[1231px] mx-auto overflow-hidden">
+          <div className="max-w-[1231px] mx-auto">
             {/* center text */}
             <div className="text-center">
               {/* lg-text */}
