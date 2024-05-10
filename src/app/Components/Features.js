@@ -15,7 +15,7 @@ const Features = () => {
      {/* section */}
      <div className="mt-[5.5rem] grid gap-9 grid-cols-2 mx-auto items-center grid_first_feature">
           {/* left */}
-          <div>
+          <div className='sm:px-[1rem] sm:pb-8'>
             {/* big-text */}
             <div className="b_text_feature text-white font-[900] text-[40px] leading-[46px]">
             Basic chatbots have<br></br> <span className='text-[#F1D598]'>no business</span> representing<br></br> <span className='text-[#C4ADEB]'>your business</span>
@@ -35,7 +35,7 @@ const Features = () => {
           <div className="bg_img_feature"><img className="max-w-[141%] ml-4" src={bigImage.src}></img></div>
         </div>
         {/* grid */}
-        <div className='grid_card_feature grid grid-cols-4 gap-8 mt-24'>
+        <div className='grid_card_feature grid grid-cols-4 gap-8 mt-24 sm:mt-0 sm:px-[1rem] sm:mr-[0]'>
             {/* box 1 */}
             <div className='border border-slate-800/60 rounded-lg box_shadow_card_feature px-8 py-10'>
                 {/* inner parent */}
