@@ -28,7 +28,7 @@ const Discover = () => {
                 {/* sm text */}
                 <div className="leading-[27px] font-[400] text-[18px] text-[#1e232e]">Read the full study and discover how Ada customers established a robust and easy-to-manage customer service automation platform that delivers results.</div>
                 {/* banner */}
-            <div className= "shadow_btn font-[600] mt-[38px] text-[14px] text-[#1E232E] bg-[#e3d4fc] flex items-center w-[240px] rounded-[16px] px-[20px] py-[5px] banner_shadow banner_feature">
+            <div className= "shadow_btn font-[600] mt-[38px] text-[14px] text-[#1E232E] bg-[#e3d4fc] flex items-center w-[230px] rounded-[16px] px-[18px] py-[5px] banner_shadow banner_feature">
               {/* text */}
               <div>Get the Forrester® Report</div>
               {/* img */}
@@ -54,7 +54,7 @@ const Discover = () => {
                 {/* sm text */ }
                 <div className="leading-[27px] font-[400] text-[18px] text-[#1e232e]">Our generative AI experts have gathered insights for you to understand how to evolve your team, strategy and tech stack for an AI-first future.</div>
                 {/* banner */}
-            <div className= "shadow_btn font-[600] mt-[38px] text-[14px] text-[#1E232E] bg-[#e3d4fc] flex items-center w-[160px] rounded-[16px] px-[20px] py-[5px] banner_shadow banner_feature">
+            <div className= "shadow_btn font-[600] mt-[38px] text-[14px] text-[#1E232E] bg-[#e3d4fc] flex items-center w-[150px] rounded-[16px] px-[17px] py-[5px] banner_shadow banner_feature">
               {/* text */}
               <div>Get the Toolkit</div>
               {/* img */}
@@ -66,7 +66,7 @@ const Discover = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-1 text-[#1E232E] shadow-2xl">
+          <div className="col-span-1 text-[#1E232E] shadow-2xl rounded-lg">
             <div className="border-[1px]  border-[#FFFFFF99] rounded-lg">
               {/* inner parent */}
               <div className="pl-[33px] space-y-[32px] pr-6 py-[153px] xl:py-7">

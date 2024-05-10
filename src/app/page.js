@@ -6,6 +6,7 @@ import Features from './Components/Features'
 import Hire from '../app/Components/Hire'
 import Automation from './Components/automation'
 import Discover from './Components/Discover'
+import Footer from './Components/Footer'
 const page = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const page = () => {
      <Hire/>
      <Automation/>
      <Discover/>
+     <Footer/>
     </>
   )
 }
