@@ -7,12 +7,13 @@ import facebook from '../../../public/assets/facebook.svg'
  const Footer = () => {
   return (
     <>
+    <div className='container'>
     {/* fluid */}
     <div className='pb-11 max-w-[1231px] mx-auto'>
     {/* flex */}
-    <div className='flex justify-between flex-wrap xl:flex-wrap xl:items-center border-t-[1px] border-t-[#E5E7EB] pt-11 mt-24 pr-[90px]'>
+    <div className='md:px-4 flex justify-between flex-wrap xl:flex-wrap border-t-[1px] border-t-[#E5E7EB] pt-11 mt-24 xl:pr-0 pr-[90px]'>
         {/* first contanier */}
-        <div className='flex justify-between flex-col'>
+        <div className='flex justify-between flex-col xl:hidden'>
             {/* img */}
             <div><img src={ada.src}></img></div>
             {/* socials */}
@@ -76,6 +77,22 @@ import facebook from '../../../public/assets/facebook.svg'
             <div>Terms</div>
             <div>Security</div>
             <div>Accessibility</div>
+        </div>
+    </div>
+    <div className='hidden xl:flex xl:justify-between xl:mt-5 px-4'>
+            {/* img */}
+            <div><img src={ada.src}></img></div>
+            {/* socials */}
+            <div className='flex items-center mt-auto space-x-4 pl-1'>
+                {/* img 1 */}
+                <div><img src={linkedin.src}></img></div>
+                {/* img 2 */}
+                <div><img src={facebook.src}></img></div>
+                {/* img 3 */}
+                <div><img src={twitter.src}></img></div>
+                {/* img 4 */}
+                <div><img src={youtube.src}></img></div>
+            </div>
         </div>
     </div>
     </div>
