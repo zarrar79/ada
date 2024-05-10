@@ -48,7 +48,7 @@ const Discover = () => {
                   <img className="sm:max-w-[25%] max-w-[107%] rounded-lg" src='https://www.ada.cx/_astro/resource-ada.BKe_goeQ_Z10TfvM.webp'></img>
                   </div>
                 {/* text content */}
-                <div className="pl-8 space-y-[20px] sm:ml-0 sm:mt-5">
+                <div className="pl-8 space-y-[20px] sm:pl-0 sm:mt-5">
                   {/* lg text */}
                   <div className="font-[700] text-[24px] text-[black] leading-[28px]">The generative AI toolkit for customer service leaders</div>
                 {/* sm text */ }
