@@ -97,13 +97,13 @@ const automation = () => {
                   {/* clickup */}
                   <div className="box_shadow_card_feature rounded-md mt-8">
                     {/* inner content */}
-                    <div className="px-[30px] flex justify-start items-center py-11">
+                    <div className="px-[30px] flex justify-start items-center py-10">
                       {/* img*/}
                       <div>
-                        <img className="imgs" src={clickup.src}></img>
+                        <img className="imgs w-[15rem]" src={clickup.src}></img>
                       </div>
                       {/* text */}
-                      <div className="ml-[35px] font-[700] text-[24px] text-[#ffff] increase">
+                      <div className="leading-[28px] ml-[35px] font-[700] text-[24px] text-[#ffff] increase">
                         20% increase in Automated Resolution Rate
                       </div>
                     </div>
@@ -111,7 +111,7 @@ const automation = () => {
                   {/* tango */}
                   <div className="box_shadow_card_feature rounded-md mt-8">
                     {/* inner content */}
-                    <div className="px-[30px] flex justify-start items-center py-11">
+                    <div className="px-[30px] flex justify-start items-center py-12">
                       {/* img*/}
                       <div>
                         <img className="imgs" src={tango.src}></img>

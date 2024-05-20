@@ -172,35 +172,35 @@ if (menuElements[i].style.display === "block") {
           {/* ml-56px */}
             {/* grid */}
             <div className="grid_hero grid grid-cols-5 items-center gap-x-[48px] pb-[13px]">
-              <div>
+              <div className="space-y-14">
                 {/* img 1 */}
                 <div className="canva"><img src={canva.src}></img></div>
                 {/* img 2 */}
-                <div className="mailchimp mt-[58px]"><img src={mailchimp.src}></img></div>
+                <div className="mailchimp"><img src={mailchimp.src}></img></div>
               </div>
-              <div>
+              <div className="space-y-14">
                 {/* img 1 */}
                 <div className="wealthsimple"><img src={wealthsimple.src}></img></div>
                 {/* img 2 */}
-                <div className="ipsy mt-[58px]"><img src={ipsy.src}></img></div>
+                <div className="ipsy"><img src={ipsy.src}></img></div>
               </div>
-              <div>
+              <div className="space-y-14">
                 {/* img 1 */}
                 <div className="pinterest"><img src={pinterest.src}></img></div>
                 {/* img 2 */}
-                <div className="verizon mt-[58px]"><img src={verizon.src}></img></div>
+                <div className="verizon"><img src={verizon.src}></img></div>
               </div>
-              <div>
+              <div className="space-y-14">
                 {/* img 1 */}
-                <div className="afterpay"><img src={afterpray.src}></img></div>
+                <div className="afterpay mt-11"><img src={afterpray.src}></img></div>
                 {/* img 2 */}
-                <div className="weber mt-[58px]"><img src={weber.src}></img></div>
+                <div className="weber"><img src={weber.src}></img></div>
               </div>
-              <div>
+              <div className="space-y-14">
                 {/* img 1 */}
-                <div className="square"><img src={squre.src}></img></div>
+                <div className="square mt-4"><img src={squre.src}></img></div>
                 {/* img 2 */}
-                <div className="yeti mt-[58px]"><img src={yeti.src}></img></div>
+                <div className="yeti"><img src={yeti.src}></img></div>
               </div>
             </div>
         </div>

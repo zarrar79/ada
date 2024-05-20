@@ -62,7 +62,7 @@ const Testimonials = () => {
         <div className="grid_of_two_about grid grid-cols-2 mt-[80px] gap-[30px]">
           {/* left */}
           {/* #FFFFFF99 */}
-          <div className="px-[29px] py-[38px] rounded-[8px] border-[1px] shadow-2xl border-[#FFFFFF99]">
+          <div className="px-[29px] py-[38px]  rounded-[8px] border-[1px] shadow-2xl border-[#FFFFFF99]">
             {/* b_text */}
             <div className="font-[400] text-[18px] text-[#1E232E] justify-start">
             &quot;Our AI Agent brings us closer to our clients, reducing
