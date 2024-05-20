@@ -153,7 +153,7 @@ if (menuElements[i].style.display === "block") {
               Meet Ada, your<br></br> new AI Agent for<br></br> customer service
             </div>
             {/* sm-text */}
-            <div className="font-[400] text-[20px] text-[white] leading-[30px] mt-9">
+            <div className="font-[400] text-[20px] text-[white] leading-[30px] mt-9 pr-24">
               Hire an AI agent to deliver extraordinary customer experiences,
               faster and at a lower cost than human agents.
             </div>
@@ -165,7 +165,7 @@ if (menuElements[i].style.display === "block") {
             </div>
           </div>
           {/* right */}
-          <div className="hero_big_img mr-[-68px]"><img className="max-w-[130%]" src={bigImage.src}></img></div>
+          <div className="hero_big_img mr-[-68px]"><img className="max-w-[130%] mt-[-34px]" src={bigImage.src}></img></div>
         </div>
         {/* images */}
         <div className="hero_images max-w-[1029px] mx-auto mt-[14px] rounded-b-[5px]">
